@@ -12,13 +12,10 @@
     <link rel="stylesheet" href="assets/css/untitled.css">
 	<link href="style.css" rel="stylesheet" type="text/css">
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script type='text/javascript' src='loadImg.js'></script>
-<script>
-$(function(){
-        $('img').imgPreload()
-    })
-</script>	
+
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+    <script src="https://raw.githubusercontent.com/anseki/eager-image-loader/master/eager-image-loader.min.js"></script>	
 	
 </head>
 
@@ -40,7 +37,9 @@ $(function(){
         <section class="portfolio-block photography">
             <div class="container">
                 <div class="row no-gutters">
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover" style="background-color: rgb(255,255,255);"><img class="img-fluid image" src="assets/img/brussels-griffon-dog-poses-for-the-camera.jpg"></div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover container text-center" style="background-color: rgb(255,255,255);"><img class="img-fluid image" src="assets/img/brussels-griffon-dog-poses-for-the-camera.jpg"> <script type="text/javascript">
+      new EagerImageLoader();
+  </script></div>
                     <div class="col-md-6 col-lg-4 item zoom-on-hover" style="background-color: rgb(255,255,255);"><img class="img-fluid image" src="assets/img/grad-student-with-arms-in-the-air.jpg"></div>
                     <div class="col-md-6 col-lg-4 item zoom-on-hover" style="background-color: rgb(255,255,255);"><img class="img-fluid image" src="assets/img/nature/image4.jpg"></div>
                     <div class="col-md-6 col-lg-4 item zoom-on-hover" style="background-color: rgb(255,255,255);"><img class="img-fluid image" src="assets/img/sunset-675847_1280.jpg"></div>
