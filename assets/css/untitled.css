@@ -1,0 +1,24 @@
+@media (min-width: 768px) {
+  .item {
+    width: 25%;
+  }
+}
+
+.img-fluid.image {
+  border-radius: 30px;
+}
+
+.item {
+  margin-top: 35px;
+}
+
+.img-fluid.image {
+}
+
+.col-md-6.col-lg-4.item.zoom-on-hover {
+}
+
+.col-md-6.col-lg-4.item.zoom-on-hover {
+  box-shadow: 3px 4px 8px 4px rgba(46,65,82,0.1);
+}
+
